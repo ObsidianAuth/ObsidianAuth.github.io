@@ -1,0 +1,30 @@
+title: Obsidian 4
+name:
+email: tommicarpi+obsidian@gmail.com
+description: The best and simplest OTP Authenticator App. For iOS and MacOS
+
+parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/startup3.jpg
+
+
+project_button: Github
+
+github: https://twitter.com/ObsidianApp
+
+baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it as '/'
+url: https://github.com/ObsidianAuth/ObsidianAuth.github.io #http://localhost:4000/ #the url of your site
+
+google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
+
+cookie_accept_message: Thanks!
+
+# Build settings
+markdown: kramdown
+# theme: minima
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-minifier
